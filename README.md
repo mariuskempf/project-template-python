@@ -1,6 +1,6 @@
-# Python Project template
+# Python Project Template
 
-Empty Python project template
+Empty Python project template.
 
 ## Repository Structure
 
