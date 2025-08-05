@@ -6,7 +6,13 @@ Empty Python project template
 
 ...
 
-## Alternative Approaches
+## References
+
+The following lists useful sources which where used to configure this project template. Of course, all this is opinionated and not perfect 🫠.
+
+- [FastAPI - Bigger Applications](https://fastapi.tiangolo.com/tutorial/bigger-applications/)
+
+## Considerations
 
 ### Ruff Instead of Black
 
