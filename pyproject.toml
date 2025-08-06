@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "todo-list-app"
+name = "name-of-application"
 version = "0.1.0"
-description = "Small pet-project to keep my fingers busy and play around with Python"
-authors = ["Marius Kempf <mrskmpf@gmx.net>"]
+description = "Brief project description."
+authors = ["Name Surname <email-address>"]
 repository = "https://github.com/mariuskempf/todo-list-app"
 license = "MIT"
 readme = "README.md"
@@ -10,6 +10,8 @@ package-mode = false
 
 [tool.poetry.dependencies]
 python = ">=3.10.0,<3.12"
+pydantic-settings = "^2.10.1"
+fastapi = "^0.116.1"
 
 [tool.poetry.group.dev.dependencies]
 pre-commit = "4.2.0"

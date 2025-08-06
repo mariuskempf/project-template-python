@@ -16,8 +16,6 @@ The following lists useful sources which where used to configure this project te
 
 ### Ruff Instead of Black
 
-...
-
 Add the following to `pyproject.toml`:
 
 ```bash
