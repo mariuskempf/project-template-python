@@ -6,7 +6,7 @@ Empty Python project template.
 
 The following steps help you to set things up and get started quickly.
 
-0. Ensure you have [Poetry 1.8](https://python-poetry.org/docs/1.8/#installation) installed and a python environment configured and activated:
+0. Ensure you have [Poetry 1.8](https://python-poetry.org/docs/1.8/#installation) installed and a virtual environment (Python 3.10) is configured and activated:
 
    ```bash
    source .venv/bin/activate
@@ -23,6 +23,8 @@ The following steps help you to set things up and get started quickly.
    ```bash
    pre-commit install
    ```
+
+3. Adjust general `pyproject.toml` configuration, e.g. project name, authors, URL,...
 
 ## 🛳️ Containerization
 
