@@ -2,10 +2,6 @@
 
 Empty Python project template.
 
-## Repository Structure
-
-...
-
 ## Getting Started
 
 The following steps help you to set things up and get started quickly.
@@ -27,6 +23,33 @@ The following steps help you to set things up and get started quickly.
    ```bash
    pre-commit install
    ```
+
+## Repository Structure
+
+The following briefly explains the structure of the project template.
+
+```text
+project-template-python/
+│
+├── app/                       # Main application code
+│   ├── routers/               # API route definitions
+│   ├── api.py                 # Main API router
+│   ├── config.py              # Application configuration
+│   ├── dependencies.py        # Dependency injection utilities
+│   └── utils.py               # Utility functions
+├── data/                      # Data for experimentation
+├── docs/                      # Documentation files
+├── notebooks/                 # Jupyter notebooks for experimentation
+├── tests/                     # Unit and integration tests
+│
+├── .pre-commit-config.yaml    # Pre-commit hook configuration
+├── .pylintrc                  # Pylint configuration
+├── .todo                      # Personal to-do notes
+├── example.env                # Example file for (local) environment variables
+├── poetry.lock                # Poetry lock file
+├── pyproject.toml             # Poetry/Project metadata and dependencies
+└──  ...
+```
 
 ## References
 
