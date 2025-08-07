@@ -2,7 +2,7 @@
 
 Empty Python project template.
 
-## Getting Started
+## 🚀 Getting Started
 
 The following steps help you to set things up and get started quickly.
 
@@ -23,6 +23,23 @@ The following steps help you to set things up and get started quickly.
    ```bash
    pre-commit install
    ```
+
+## 🛳️ Containerization
+
+Build container image:
+
+```bash
+docker build -t my-python-project:0.0.1 .
+
+# Using Linux (e.g. Colima with rosetta):
+# docker build -t my-python-project:0.0.1 . --platform=linux/arm64
+```
+
+Start container and expose API on [localhost:8000](http://localhost:8000/):
+
+```bash
+docker run -it -p 8000:8000 --env-file .env my-python-project:0.0.1
+```
 
 ## Repository Structure
 
