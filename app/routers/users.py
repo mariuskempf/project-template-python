@@ -8,7 +8,7 @@ router = APIRouter()
 @router.get("/users/", tags=["users"])
 async def read_users():
     """Get available users."""
-    return [{"username": "Foo"}, {"username": "Bar"}]
+    return [{"username": "FooBar"}, {"username": "Foo-Bar"}]
 
 
 @router.get("/users/me", tags=["users"])

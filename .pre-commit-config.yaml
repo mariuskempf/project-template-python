@@ -15,7 +15,7 @@ repos:
       - id: black
         name: Run Black formatting
         args: ["--config=pyproject.toml"]
-        language_version: python3.11
+        language_version: python3.10
 
 # Pylint - Python code linting
   - repo: https://github.com/pylint-dev/pylint
@@ -26,7 +26,7 @@ repos:
       entry: poetry run pylint
       args:
         [
-          "src",
+          "app",
           "--rcfile=.pylintrc",
           "--fail-under=9.0",
           "--fail-on=E",
