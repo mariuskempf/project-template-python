@@ -75,6 +75,8 @@ project-template-python/
 The following lists useful sources which where used to configure this project template. Of course, all this is opinionated and not perfect 🫠.
 
 - [FastAPI - Bigger Applications](https://fastapi.tiangolo.com/tutorial/bigger-applications/)
+- [Docker Docs - Building best-practices](https://docs.docker.com/build/building/best-practices/)
+- ...
 
 ## Considerations
 

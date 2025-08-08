@@ -15,8 +15,8 @@ setup_logging(log_level=app_settings.log_level)
 logger = logging.getLogger(__name__)
 
 app = FastAPI(
-    title="My small python project template",
-    description="Small python project template",
+    title="My Small Python Project Template",
+    description="Small Python project template",
     version="0.1.0",
 )
 
