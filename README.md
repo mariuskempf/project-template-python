@@ -26,6 +26,14 @@ The following steps help you to set things up and get started quickly.
 
 3. Adjust general `pyproject.toml` configuration, e.g. project name, authors, URL,...
 
+### 🚧 Run in Locally in Dev-Mode
+
+The following allows you to run the application while instantly reflecting your code changes:
+
+```bash
+uvicorn app.api:app --reload --host 0.0.0.0 --port 8000
+```
+
 ## 🛳️ Containerization
 
 Build container image:
