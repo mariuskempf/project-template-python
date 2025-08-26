@@ -1,6 +1,6 @@
 # Python Project Template
 
-Empty Python project template.
+Empty Python project template serving as a starting point for a microservice exposing and API using FastAPI.
 
 ## 🚀 Getting Started
 
@@ -63,7 +63,6 @@ project-template-python/
 │
 ├── .pre-commit-config.yaml    # Pre-commit hook configuration
 ├── .pylintrc                  # Pylint configuration
-├── .todo                      # Personal to-do notes
 ├── example.env                # Example file for (local) environment variables
 ├── poetry.lock                # Poetry lock file
 ├── pyproject.toml             # Poetry/Project metadata and dependencies
